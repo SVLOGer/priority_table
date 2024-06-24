@@ -24,7 +24,7 @@ const parseFileContent = (content: string): TableData[] => {
                 tables.push(currentTable)
             }
 
-            const [tableName, maxSlotsStr] = tableMatch
+            const [_, tableName, maxSlotsStr] = tableMatch
             currentTable = {
                 tableName: tableName.trim(),
                 maxSlots: parseInt(maxSlotsStr, 10),
@@ -34,7 +34,7 @@ const parseFileContent = (content: string): TableData[] => {
                 persons: [], // Initialize persons array
             }
         } else if (personMatch && currentTable) {
-            const [name, pointsStr, priorityStr, idStr] = personMatch
+            const [_, name, pointsStr, priorityStr, idStr] = personMatch
             const person: PersonData = {
                 id: parseInt(idStr, 10),
                 name: name.trim(),
