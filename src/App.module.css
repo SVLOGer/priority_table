@@ -1,0 +1,73 @@
+.tablePage {
+    margin-block: 10px;
+    margin-inline-start: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.tables {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-block-start: 50px;
+}
+
+.button {
+    background-color: #adadad;
+    border-radius: 20px;
+    border: none;
+    height: 23px;
+}
+
+.button:hover {
+    background-color: #858282;
+}
+
+.popupPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #858282;
+    width: 100%;
+    height: 100vh;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.warning {
+    color: #e72f24;
+}
+
+.createWarning {
+    position: absolute;
+    margin-block-start: 30px;
+}
+
+.closeButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    position: absolute;
+    margin-inline-start: 38%;
+    margin-block-start: 5px;
+}

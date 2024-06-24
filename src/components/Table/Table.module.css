@@ -1,0 +1,86 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 50px;
+}
+
+.tableHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 735px;
+}
+
+.columnTitles {
+    display: flex;
+    margin-block-end: 10px;
+}
+
+.tableBorder {
+    border-top: #1a1818 2px solid;
+    border-left: #1a1818 2px solid;
+}
+
+.columnName {
+    width: 500px;
+}
+
+.columnPriority {
+    width: 100px;
+}
+
+.columnPoints {
+    width: 100px;
+}
+
+.columnName,
+.columnPoints,
+.columnPriority {
+    padding-inline-start: 10px;
+}
+
+.persons {
+    width: 735px;
+    margin-block-end: 5px;
+}
+
+.addPerson {
+    display: flex;
+    gap: 7px;
+}
+
+.button {
+    background-color: #adadad;
+    border-radius: 20px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #858282;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.green {
+    background-color: #43eb52;
+}
+
+.red {
+    background-color: #e72f24;
+}
+
+.input {
+    width: 180px;
+}
+
+.warning {
+    color: #e72f24;
+}
+
+.createWarning {
+    position: absolute;
+    margin-block-start: 30px;
+}

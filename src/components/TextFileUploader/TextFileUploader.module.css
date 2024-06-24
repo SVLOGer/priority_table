@@ -1,0 +1,20 @@
+.inputFile {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.inputFileBtn {
+    cursor: pointer;
+    background-color: #adadad;
+    border-radius: 20px;
+    border: none;
+    padding-block-start: 1px;
+    padding-block-end: 2px;
+    padding-inline: 5px;
+    font-size: 14px;
+}
+
+.inputFileBtn:hover {
+    filter: brightness(75%);
+}

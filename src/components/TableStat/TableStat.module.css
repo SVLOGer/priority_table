@@ -1,0 +1,26 @@
+.stats {
+    display: flex;
+}
+
+.personPriority {
+    width: 100px;
+}
+
+.personPoints {
+    width: 100px;
+}
+
+.personPoints,
+.personPriority {
+    padding-inline-start: 10px;
+    border-right: #1a1818 2px solid;
+    border-bottom: #1a1818 2px solid;
+}
+
+.inputPoints {
+    width: 105px;
+}
+
+.inputPriority {
+    width: 104px;
+}

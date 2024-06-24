@@ -1,0 +1,29 @@
+.person {
+    display: flex;
+    gap: 10px;
+}
+
+.personInfo {
+    display: flex;
+}
+
+.personName {
+    padding-inline-start: 10px;
+    width: 500px;
+    border-right: #1a1818 2px solid;
+    border-bottom: #1a1818 2px solid;
+}
+
+.button {
+    background-color: #adadad;
+    border-radius: 20px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #858282;
+}
+
+.inputName {
+    width: 504px;
+}
